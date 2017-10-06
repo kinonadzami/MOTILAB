@@ -1,6 +1,4 @@
-﻿
-@{
-}
+﻿@model Vector
 <!doctype html>
 <html>
 <head>
@@ -15,11 +13,12 @@
     }
     else
     {
-        <form method="post">
+        <form method="post" action="/Home/UpdateVector">
             <label>Название альтернативы:</label><br />
             <select asp-items="ViewBag.alts" name="ANum"></select><br /><br />
             <label>Название оценки:</label><br />
             <select asp-items="ViewBag.marks" name="MNum"></select><br /><br />
+            <input type="hidden" name="VNum" value="@Model.VNum" />
             <input type="submit" value="Отправить" />
         </form>
     }

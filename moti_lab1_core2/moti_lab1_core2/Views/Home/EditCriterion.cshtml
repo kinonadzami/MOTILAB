@@ -1,4 +1,4 @@
-﻿
+﻿@model Criterion
 <!doctype html>
 <html>
 <head>
@@ -7,17 +7,18 @@
 </head>
 <body>
     <br />
-    <form method="post">
+    <form method="post" action="/Home/UpdateJudge">
         <label>Название:</label><br />
-        <input type="text" name="CName" /><br /><br />
+        <input type="text" name="CName" value="@Model.CName"/><br /><br />
         <label>Тип Критерия:</label><br />
         <select asp-items="ViewBag.Type" name="CType"></select><br /><br />
         <label>Оптимальность:</label><br />
         <select asp-items="ViewBag.Optim" name="OptimType"></select><br /><br />
         <label>Единицы измерения:</label><br />
-        <input type="text" name="EdIzmer" /><br /><br />
+        <input type="text" name="EdIzmer" value="@Model.Edizmer"/><br /><br />
         <label>Тип шкалы:</label><br />
         <select asp-items="ViewBag.Scales" name="ScaleType"></select><br /><br />
+        <input type="hidden" name="CNum" value="@Model.CNum" />
         <input type="submit" value="Отправить" />
     </form>
 </body>

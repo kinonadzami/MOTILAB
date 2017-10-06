@@ -1,6 +1,5 @@
 ﻿
-@{
-}
+@model Alternative
 <!doctype html>
 <html>
 <head>
@@ -9,9 +8,10 @@
 </head>
 <body>
     <br />
-    <form method="post">
+    <form method="post" action="/Home/UpdateAlternative">
         <label>Название:</label><br />
-        <input type="text" name="alternativeName" /><br /><br />
+        <input type="text" name="alternativeName" value="@Model.AName" /><br /><br />
+        <input type="hidden" name="ANum" value="@Model.ANum" /><br /><br />
         <input type="submit" value="Отправить" />
     </form>
 </body>

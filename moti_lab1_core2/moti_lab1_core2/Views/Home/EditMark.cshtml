@@ -1,6 +1,4 @@
-﻿
-@{
-}
+﻿@model Mark
 <!doctype html>
 <html>
 <head>
@@ -15,10 +13,11 @@
     }
     else
     {
-        <form method="post">
+        <form method="post" action="/Home/UpdateMark">
             <label>Название:</label><br />
-            <input type="text" name="MName" /><br /><br />
+            <input type="text" name="MName" value="@Model.MNAme" /><br /><br />
             <select asp-items="ViewBag.Select" name="CNum"></select><br /><br />
+            <input type="hidden" name="MNum" value="@Model.MNum" />
             <input type="submit" value="Отправить" />
         </form>
     }
