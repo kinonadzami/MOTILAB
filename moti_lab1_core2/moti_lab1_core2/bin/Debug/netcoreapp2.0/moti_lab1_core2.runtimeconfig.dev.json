@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Valerii Nikolaienko\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Valerii Nikolaienko\\.nuget\\packages",
+      "C:\\Users\\kinon\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\kinon\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
