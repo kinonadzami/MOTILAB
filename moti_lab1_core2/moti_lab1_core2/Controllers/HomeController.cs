@@ -156,12 +156,11 @@ namespace moti_lab1_core2.Controllers
         }
 
         [HttpPost]
-        public IActionResult EditJudge(int LNum, string judgeName)
+        public IActionResult UpdateJudge(int LNum, string judgeName)
         {
-            LPR newJudge = new LPR();
-            newJudge.LName = judgeName;
-            newJudge.LRange = 1;
-            db.LPRs.Add(newJudge);
+            LPR lpr = db.LPRs.First(x => x.LNum == LNum);
+            lpr.LName = judgeName;
+            db.LPRs.Update(lpr);
             db.SaveChanges();
             return RedirectToAction("Index");
         }
