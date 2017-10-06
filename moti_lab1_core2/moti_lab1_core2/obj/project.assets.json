@@ -12542,11 +12542,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Downloads\\moti_lab1_core2\\moti_lab1_core2\\moti_lab1_core2.csproj",
+      "projectUniqueName": "D:\\Files\\MOTI_GIT\\moti_lab1_core2\\moti_lab1_core2\\moti_lab1_core2.csproj",
       "projectName": "moti_lab1_core2",
-      "projectPath": "D:\\Downloads\\moti_lab1_core2\\moti_lab1_core2\\moti_lab1_core2.csproj",
+      "projectPath": "D:\\Files\\MOTI_GIT\\moti_lab1_core2\\moti_lab1_core2\\moti_lab1_core2.csproj",
       "packagesPath": "C:\\Users\\Valerii Nikolaienko\\.nuget\\packages\\",
-      "outputPath": "D:\\Downloads\\moti_lab1_core2\\moti_lab1_core2\\obj\\",
+      "outputPath": "D:\\Files\\MOTI_GIT\\moti_lab1_core2\\moti_lab1_core2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
