@@ -322,6 +322,46 @@ namespace moti_lab1_core2.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult DeleteJudge(int LNum)
+        {
+            LPR lpr = db.LPRs.First(x => x.LNum == LNum);
+            db.LPRs.Remove(lpr);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult DeleteAlternative(int ANum)
+        {
+            Alternative alternative = db.Alternatives.First(x => x.ANum == ANum);
+            db.Alternatives.Remove(alternative);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult DeleteMark(int MNum)
+        {
+            Mark mark = db.Marks.First(x => x.MNum == MNum);
+            db.Marks.Remove(mark);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult DeleteCriterion(int CNum)
+        {
+            Criterion criterion = db.Criterions.First(x => x.CNum == CNum);
+            db.Criterions.Remove(criterion);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult DeleteVector(int VNum)
+        {
+            Vector vector = db.Vectors.First(x => x.VNum == VNum);
+            db.Vectors.Remove(vector);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
