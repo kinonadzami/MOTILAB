@@ -1,0 +1,23 @@
+﻿
+@{
+}
+<!doctype html>
+<html>
+<head>
+    <title>Hello ASP.NET</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <br />
+    @if (ViewBag.Select.Count == 0)
+    {
+        
+    }
+    <form method="post">
+        <label>Название:</label><br />
+        <input type="text" name="MName" /><br /><br />
+        <select asp-items="ViewBag.Select"></select><br /><br />
+        <input type="submit" value="Отправить" />
+    </form>
+</body>
+</html>

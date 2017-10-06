@@ -1,0 +1,22 @@
+C:\Users\kinon\OneDrive\Документы\Visual Studio 2017\Projects\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.deps.json
+C:\Users\kinon\OneDrive\Документы\Visual Studio 2017\Projects\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.runtimeconfig.json
+C:\Users\kinon\OneDrive\Документы\Visual Studio 2017\Projects\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.runtimeconfig.dev.json
+C:\Users\kinon\OneDrive\Документы\Visual Studio 2017\Projects\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.dll
+C:\Users\kinon\OneDrive\Документы\Visual Studio 2017\Projects\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.pdb
+C:\Users\kinon\OneDrive\Документы\Visual Studio 2017\Projects\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.csprojResolveAssemblyReference.cache
+C:\Users\kinon\OneDrive\Документы\Visual Studio 2017\Projects\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.csproj.CoreCompileInputs.cache
+C:\Users\kinon\OneDrive\Документы\Visual Studio 2017\Projects\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.AssemblyInfoInputs.cache
+C:\Users\kinon\OneDrive\Документы\Visual Studio 2017\Projects\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.AssemblyInfo.cs
+C:\Users\kinon\OneDrive\Документы\Visual Studio 2017\Projects\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.dll
+C:\Users\kinon\OneDrive\Документы\Visual Studio 2017\Projects\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.pdb
+D:\Downloads\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.deps.json
+D:\Downloads\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.runtimeconfig.json
+D:\Downloads\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.runtimeconfig.dev.json
+D:\Downloads\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.dll
+D:\Downloads\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.pdb
+D:\Downloads\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.csprojResolveAssemblyReference.cache
+D:\Downloads\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.csproj.CoreCompileInputs.cache
+D:\Downloads\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.AssemblyInfoInputs.cache
+D:\Downloads\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.AssemblyInfo.cs
+D:\Downloads\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.dll
+D:\Downloads\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.pdb
