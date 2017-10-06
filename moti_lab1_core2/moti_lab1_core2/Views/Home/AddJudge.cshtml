@@ -6,13 +6,21 @@
 <head>
     <title>Hello ASP.NET</title>
     <meta charset="utf-8" />
+<style>
+    .AddJudgeForm {
+        width: 200px; 
+        padding: 10px; 
+        margin: auto; 
+    }
+</style>
 </head>
 <body>
+    
     <br />
-    <form method="post">
+    <form method="post" class="AddJudgeForm">
         <label>Имя:</label><br />
-        <input type="text" name="judgeName"/><br /><br />
-        <input type="submit" value="Отправить" />
+        <input type="text" name="judgeName" placeholder="Введите имя" required/><br /><br />
+        <input type="submit" value="Отправить" name="sumbit_button"/>
     </form>
 </body>
 </html>

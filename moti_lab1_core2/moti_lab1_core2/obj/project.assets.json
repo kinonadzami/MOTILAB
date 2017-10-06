@@ -12533,7 +12533,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Valerii Nikolaienko\\.nuget\\packages\\": {},
+    "C:\\Users\\Stanislav\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12542,17 +12542,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Downloads\\moti_lab1_core2\\moti_lab1_core2\\moti_lab1_core2.csproj",
+      "projectUniqueName": "I:\\Project\\MOTI_LAB\\moti_lab1_core2\\moti_lab1_core2\\moti_lab1_core2.csproj",
       "projectName": "moti_lab1_core2",
-      "projectPath": "D:\\Downloads\\moti_lab1_core2\\moti_lab1_core2\\moti_lab1_core2.csproj",
-      "packagesPath": "C:\\Users\\Valerii Nikolaienko\\.nuget\\packages\\",
-      "outputPath": "D:\\Downloads\\moti_lab1_core2\\moti_lab1_core2\\obj\\",
+      "projectPath": "I:\\Project\\MOTI_LAB\\moti_lab1_core2\\moti_lab1_core2\\moti_lab1_core2.csproj",
+      "packagesPath": "C:\\Users\\Stanislav\\.nuget\\packages\\",
+      "outputPath": "I:\\Project\\MOTI_LAB\\moti_lab1_core2\\moti_lab1_core2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Valerii Nikolaienko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Stanislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

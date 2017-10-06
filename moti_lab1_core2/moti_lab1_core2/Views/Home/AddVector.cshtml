@@ -6,6 +6,9 @@
 <head>
     <title>Hello ASP.NET</title>
     <meta charset="utf-8" />
+    <style>
+        
+    </style>
 </head>
 <body>
     <br />
@@ -17,9 +20,9 @@
     {
         <form method="post">
             <label>Название альтернативы:</label><br />
-            <select asp-items="ViewBag.alts" name="ANum"></select><br /><br />
+            <select asp-items="ViewBag.alts" name="ANum" ></select><br /><br />
             <label>Название оценки:</label><br />
-            <select asp-items="ViewBag.marks" name="MNum"></select><br /><br />
+            <select asp-items="ViewBag.marks" name="MNum" ></select><br /><br />
             <input type="submit" value="Отправить" />
         </form>
     }
