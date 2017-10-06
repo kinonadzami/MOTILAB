@@ -122,7 +122,18 @@ namespace moti_lab1_core2.Controllers
         [HttpGet]
         public IActionResult AddVector()
         {
-            //TODO: fill fields with values from DB
+            List<SelectListItem> alts = new List<SelectListItem>();
+            foreach (Alternative item in db.Alternatives.ToList())
+            {
+                alts.Add(new SelectListItem { Value = "" + item.ANum, Text = item.AName });
+            }
+            List<SelectListItem> marks = new List<SelectListItem>();
+            foreach (Mark item in db.Marks.ToList())
+            {
+                marks.Add(new SelectListItem { Value = "" + item.MNum, Text = item.MNAme });
+            }
+            ViewBag.alts = alts;
+            ViewBag.marks = marks;
             return View();
         }
 

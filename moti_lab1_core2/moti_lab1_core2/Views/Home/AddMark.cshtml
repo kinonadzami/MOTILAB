@@ -11,13 +11,16 @@
     <br />
     @if (ViewBag.Select.Count == 0)
     {
-        
+        <h1>Сначала добавьте критерий</h1>
     }
-    <form method="post">
-        <label>Название:</label><br />
-        <input type="text" name="MName" /><br /><br />
-        <select asp-items="ViewBag.Select"></select><br /><br />
-        <input type="submit" value="Отправить" />
-    </form>
+    else
+    {
+        <form method="post">
+            <label>Название:</label><br />
+            <input type="text" name="MName" /><br /><br />
+            <select asp-items="ViewBag.Select" name="CNum"></select><br /><br />
+            <input type="submit" value="Отправить" />
+        </form>
+    }
 </body>
 </html>
