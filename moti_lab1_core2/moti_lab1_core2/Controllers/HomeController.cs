@@ -168,15 +168,16 @@ namespace moti_lab1_core2.Controllers
         [HttpPost]
         public IActionResult EditAlternative(int ANum)
         {
+            Alternative alternative = db.Alternatives.First(x => x.ANum == ANum);
             return View();
         }
 
         [HttpPost]
-        public IActionResult EditAlternative(int ANum, string alternativeName)
+        public IActionResult UpdateAlternative(int ANum, string alternativeName)
         {
-            Alternative newAlt = new Alternative();
+            Alternative newAlt =db.Alternatives.First(x => x.ANum == ANum);
             newAlt.AName = alternativeName;
-            db.Alternatives.Add(newAlt);
+            db.Alternatives.Update(newAlt);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

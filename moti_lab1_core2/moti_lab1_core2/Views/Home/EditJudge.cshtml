@@ -1,6 +1,4 @@
-﻿
-@{
-}
+﻿@model LPR
 <!doctype html>
 <html>
 <head>
@@ -9,9 +7,10 @@
 </head>
 <body>
     <br />
-    <form method="post">
+    <form method="post" action="/Home/UpdateJudge">
         <label>Имя:</label><br />
-        <input type="text" name="judgeName" /><br /><br />
+        <input type="text" name="judgeName" value="@Model.LName" /><br /><br />
+        <input type="hidden" name="LNum" value="@Model.LNum" />
         <input type="submit" value="Отправить" />
     </form>
 </body>
