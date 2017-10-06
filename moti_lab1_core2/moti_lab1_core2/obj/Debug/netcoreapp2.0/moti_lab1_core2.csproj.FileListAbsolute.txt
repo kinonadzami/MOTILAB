@@ -20,3 +20,14 @@ D:\Downloads\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_c
 D:\Downloads\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.AssemblyInfo.cs
 D:\Downloads\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.dll
 D:\Downloads\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.pdb
+D:\Files\MOTI_GIT\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.deps.json
+D:\Files\MOTI_GIT\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.runtimeconfig.json
+D:\Files\MOTI_GIT\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.runtimeconfig.dev.json
+D:\Files\MOTI_GIT\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.dll
+D:\Files\MOTI_GIT\moti_lab1_core2\moti_lab1_core2\bin\Debug\netcoreapp2.0\moti_lab1_core2.pdb
+D:\Files\MOTI_GIT\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.csprojResolveAssemblyReference.cache
+D:\Files\MOTI_GIT\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.csproj.CoreCompileInputs.cache
+D:\Files\MOTI_GIT\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.AssemblyInfoInputs.cache
+D:\Files\MOTI_GIT\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.AssemblyInfo.cs
+D:\Files\MOTI_GIT\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.dll
+D:\Files\MOTI_GIT\moti_lab1_core2\moti_lab1_core2\obj\Debug\netcoreapp2.0\moti_lab1_core2.pdb
